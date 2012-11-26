@@ -17,7 +17,7 @@
 #define kPetalAlpha 0.96
 
 //Animation Settings
-#define kAnimationGrowDuration 0.3
+#define kAnimationGrowDuration 0.25
 #define kAnimationRotateDuration 0.3
 #define kAnimationVerticalOffset 3      //Measured in pixels, this variable sets how high the  items will animate before beginning their rotation
 #define kAnimationPetalSpread 1.003     //A tuning parameter for determining how crowded petals are with respect to eachother
@@ -35,7 +35,7 @@
 #define kDefaultLeftMargin kPetalWidth  //Amount of space to reserve the left to ensure that the control doesnt get drawn off screen
 #define kDefaultRasterizationScale 5.0
 
-#define kTouchDuration 1.0
+#define kTouchDuration 0.25
 
 #import "KLExpandingSelect.h"
 #import <QuartzCore/QuartzCore.h>
